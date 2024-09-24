@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <title>Frontend Mentor | Contact form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h3 class="title">contact us</h3>
+
+        <form action="">
+          <div class="parent_div_inp_first_last">
+            <div class="div_inp_first">
+              <label class="label_first_name" for="fir_name"
+                >first name <span>*</span>
+              </label>
+              <input class="inp_first_name" id="fir_name" type="text" />
+              <span class="error_inp_first_name">This field is required</span>
+            </div>
+
+            <div class="div_inp_last">
+              <label class="label_last_name" for="las_name"
+                >last name <span>*</span>
+              </label>
+              <input class="inp_last_name" id="las_name" type="text" />
+              <span class="error_inp_last_name">This field is required</span>
+            </div>
+          </div>
+
+          <div class="div_inp_email">
+            <label class="label_email" for="ema-1"
+              >email address <span>*</span></label
+            >
+            <input id="ema-1" class="inp_email" type="email" />
+            <span class="error_inp_email"
+              >Please enter a valid email address</span
+            >
+          </div>
+
+          <p class="p_query_type">query type <span> *</span></p>
+
+          <div class="div_query_type">
+            <div class="div_general_enquire">
+              <input
+                id="rad_1"
+                class="inp_general_enquire"
+                type="radio"
+                value="1"
+                name="query"
+              />
+              <label class="label_general_enquire" for="rad_1"
+                >general enquire</label
+              >
+            </div>
+
+            <div class="div_support_request">
+              <input
+                id="rad_2"
+                class="inp_support_request"
+                type="radio"
+                value="2"
+                name="query"
+              />
+              <label class="label_support_request" for="rad_2"
+                >support request</label
+              >
+            </div>
+          </div>
+
+          <span class="error_query_type">Please select a query type</span>
+
+          <div class="parent_div_message">
+            <div class="div_message">
+              <label class="label_message" for="lab_mes"
+                >message <span>*</span></label
+              >
+              <textarea id="lab_mes" class="input_message"></textarea>
+              <span class="error_input_message">This field is required</span>
+            </div>
+          </div>
+
+          <div class="parent_div_checkbox">
+            <div class="div_checkbox">
+              <input id="la_che" class="input_checkbox" type="checkbox" />
+              <label class="label_checkbox" for="la_che"
+                >I consent to being contacted by the team <span>*</span></label
+              >
+            </div>
+            <span class="error_input_checkbox"
+              >To submit this form, plase consent to being contacted</span
+            >
+          </div>
+
+          <div class="div_submit">
+            <input class="input_submit" type="submit" value="submit" />
+          </div>
+        </form>
+      </div>
+
+      <div class="parent_div_Success">
+        <div class="div_Success">
+          <p class="p_succ1">
+            <i class="fa-regular fa-circle-check"></i> message sent !
+          </p>
+          <p class="p_succ2">
+            Thanks for completing the form. We'll be in touch soon!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
