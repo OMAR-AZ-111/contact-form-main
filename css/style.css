@@ -17,13 +17,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
 .content {
   width: 530px;
-  height: fit-content;
+  height: auto;
   border-radius: 10px;
-  margin: 35px 0px;
   background: hsl(0, 0%, 100%);
 }
 
@@ -45,10 +45,10 @@ body {
 
 .div_inp_first,
 .div_inp_last {
-    display: flex;
-    flex-direction: column;
-    width: 235px;
-    margin: 23px 0px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  width: 235px;
+  margin: 23px 0px 0px 20px;
 }
 
 .label_first_name,
@@ -68,12 +68,12 @@ body {
 
 .inp_first_name,
 .inp_last_name {
-    padding: 7px 0px;
-    border: 1px solid hsl(186, 15%, 59%);
-    font-size: 16px;
-    border-radius: 4px;
-    text-indent: 5px;
-    cursor: pointer;
+  padding: 7px 0px;
+  border: 1px solid hsl(186, 15%, 59%);
+  font-size: 16px;
+  border-radius: 4px;
+  text-indent: 5px;
+  cursor: pointer;
 }
 
 .inp_first_name:focus,
@@ -100,8 +100,8 @@ body {
 }
 
 .label_email span {
-    padding-left: 5px;
-    color: hsl(169, 82%, 27%);
+  padding-left: 5px;
+  color: hsl(169, 82%, 27%);
 }
 
 .inp_email {
@@ -116,23 +116,23 @@ body {
 
 .inp_email:focus,
 .inp_email:hover {
-outline: none;
+  outline: none;
   border: 1.5px solid hsl(169, 82%, 27%);
 }
 
 /* Content div_query_type */
 .p_query_type {
-    margin: 23px 0px -20px 20px;
-    font-size: 11px;
-    font-weight: 300;
-    padding-bottom: 10px;
-    color: hsl(187, 24%, 22%);
-    text-transform: capitalize;
+  margin: 23px 0px -20px 20px;
+  font-size: 11px;
+  font-weight: 300;
+  padding-bottom: 10px;
+  color: hsl(187, 24%, 22%);
+  text-transform: capitalize;
 }
 
 .p_query_type span {
-    padding-left: 5px;
-    color: hsl(169, 82%, 27%);
+  padding-left: 5px;
+  color: hsl(169, 82%, 27%);
 }
 
 .div_query_type {
@@ -141,7 +141,7 @@ outline: none;
 
 .div_general_enquire,
 .div_support_request {
-    width: 235px;
+  width: 235px;
   margin: 23px 0px 0px 20px;
   border: 1px solid hsl(186, 15%, 59%);
   border-radius: 4px;
@@ -162,8 +162,8 @@ outline: none;
 
 .label_general_enquire,
 .label_support_request {
-    position: relative;
-    bottom: 2px;
+  position: relative;
+  bottom: 2px;
   font-size: 12px;
   font-weight: 300;
   padding-left: 5px;
@@ -179,13 +179,13 @@ outline: none;
 }
 
 .div_message {
-    display: flex;
-    flex-direction: column;
-    margin: 20px 0px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px 0px 20px;
 }
 
 .label_message {
-    padding-bottom: 7px;
+  padding-bottom: 7px;
   font-size: 11px;
   font-weight: 300;
   color: hsl(187, 24%, 22%);
@@ -193,7 +193,7 @@ outline: none;
 }
 
 .label_message span {
-    padding-left: 5px;
+  padding-left: 5px;
   color: hsl(169, 82%, 27%);
 }
 
@@ -225,11 +225,11 @@ outline: none;
 }
 
 .label_checkbox {
-    margin-left: 10px;
-    font-size: 13px;
-    font-weight: 300;
-    color: hsl(187, 24%, 22%);
-    cursor: pointer;
+  margin-left: 10px;
+  font-size: 13px;
+  font-weight: 300;
+  color: hsl(187, 24%, 22%);
+  cursor: pointer;
 }
 
 .label_checkbox span {
@@ -252,7 +252,7 @@ outline: none;
 }
 
 .input_submit {
-  width: 491px;
+  width: 490px;
   margin-bottom: 20px;
   padding: 12px 0px;
   border: none;
